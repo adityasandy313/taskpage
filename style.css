@@ -39,6 +39,7 @@
 }
 .logo {
     height: 10rem;
+    float: left;
 }
 
 .menu-bar {
