@@ -31,7 +31,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     padding-top: 5rem;
-    
     animation: swipe2 2s, mymove 0.25s 5;
 }
 .nav {
@@ -124,4 +123,26 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+  }
+  .container {
+    border: 3px solid yellow;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    color:rgb(211, 60, 14);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+  .canvas {
+    position: absolute;
+    top: 0;
+  }
+  
+  .form {
+    padding: 20px;
   }
