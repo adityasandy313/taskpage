@@ -10,7 +10,7 @@
     background-position: center;
     width: auto;
     height: auto;
-    min-height: 100vh;
+    min-height: 200vh;
 }
 
 
@@ -80,54 +80,11 @@
     from{font-size: 0px;}
     to{font-size: 40px;}
 }
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
-  }
+
   .container {
     border: 3px solid yellow;
     position: relative;
-    width: 300px;
+    width: 600px;
     height: 300px;
     margin: 0 auto;
     color:rgb(211, 60, 14);
@@ -141,8 +98,116 @@
   .canvas {
     position: absolute;
     top: 0;
+    margin: -4px -18px;
   }
   
   .form {
     padding: 20px;
   }
+  #ball {
+    width:50px;
+    height:50px;
+    color:white;
+    line-height:50px;
+    font-size:30px;
+    background:red;
+    border:3px solid #000;
+    border-radius:50%;
+    position:relative;
+    left: 150px;top: 100px;
+    z-index: 1;
+    /*animation: combined 3s linear 1 forwards;
+    /* -webkit-animation: combined 2s linear 2s  forwards; */
+    /*
+    
+    animation-delay: 2s;*/
+}
+#ball.animated {
+  animation: combined 3s linear 1 forwards;
+  animation-delay: 2s;
+
+  }
+#ground{
+    position: relative;
+    top: 313px;
+}
+
+#loading {
+    height: 260px;
+    width: 260px;
+    margin: -200px 0px;
+    
+    z-index: 2;
+    position: relative;
+}
+#loading.animate{
+  animation: rotation 2s linear;
+}
+@keyframes combined {
+    5% {
+        top: 250px;
+        animation-timing-function: ease-out;
+    }
+    10% {
+        top: 70px;
+        animation-timing-function: ease-in;
+    }
+    15%{
+        top: 250px;
+        animation-timing-function: ease-out;
+    }
+    20% {
+        top: 100px;
+        animation-timing-function: ease-in;
+
+    }
+    30%  {
+        top: 250px;
+        animation-timing-function: ease-out;
+    }
+    40% {
+        top: 130px;
+        animation-timing-function: ease-in-out;
+        left: 95vw;
+    }
+    50% {
+        top: 250px;
+        animation-timing-function: ease-in-out;
+    }
+    60% {
+        top: 160px;
+        animation-timing-function: ease-in;
+        transform: rotate(650deg);
+    }
+    70% {
+        top: 250px;
+        animation-timing-function: ease-in-out;
+        transform: rotate(420deg);
+    }
+    80% {
+        top: 175px;
+        animation-timing-function: linear;
+        transform: rotate(720deg);
+    }
+    90% {
+        animation-timing-function: linear;
+        top: 250px;
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(-720deg);
+        animation-timing-function: linear;
+        top: 250px;
+        left: 50vw;
+        /* aation-delay: 2s; */
+    }
+    
+}
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(360deg);
+    }
+}

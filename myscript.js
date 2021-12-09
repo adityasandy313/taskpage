@@ -111,3 +111,8 @@
     }
     
   })();
+  loading.onclick = function() {
+    loading.classList.add('animate');
+    ball.classList.add('animated');
+    w3.hide('#ball');
+  };
