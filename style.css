@@ -81,7 +81,7 @@
     to{font-size: 40px;}
 }
 
-  .container {
+  #js-container {
     border: 3px solid yellow;
     position: relative;
     width: 600px;
@@ -94,7 +94,11 @@
     -o-user-select: none;
     user-select: none;
   }
-  
+  #js-container.ani
+  {
+      visibility: block;
+    animation-name: swipe1;
+  }
   .canvas {
     position: absolute;
     top: 0;
