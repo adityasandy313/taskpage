@@ -30,3 +30,95 @@
     left: 364px;
     top: 200px;
 }
+
+
+/*riddles*/
+
+.verticalrectangle1 {
+    position: absolute;
+    width: 542px;
+    height: 691px;
+    left: 0px;
+    top: 0px;
+    background: #763626;
+}
+
+.verticalrectangle2 {
+    position: absolute;
+    width: 542px;
+    height: 691px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.centrecircle {
+    position: absolute;
+    width: 424px;
+    height: 407px;
+    left: 48px;
+    top: 142px;
+    background: #FFFFFF;
+}
+
+
+/* HOW MANY CAN YOU GET? */
+
+.qstn {
+    position: absolute;
+    width: 326px;
+    height: 310px;
+    left: 97px;
+    top: 191px;
+    font-family: Rammetto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 84px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/*correct answer, good job */
+
+.bg2 {
+    position: absolute;
+    width: 1039px;
+    height: 693px;
+    left: 0px;
+    top: 0px;
+    background: url(2.png);
+}
+
+.correct {
+    position: absolute;
+    width: 346px;
+    height: 295px;
+    left: 106px;
+    top: 200px;
+    background: url(cookie.png);
+}
+
+.excellent {
+    position: absolute;
+    width: 500px;
+    height: 188px;
+    left: 539px;
+    top: 253px;
+    background: url(4.png);
+}
+
+
+/*correct answer, good job */
+
+.bg3 {
+    position: absolute;
+    width: 1039px;
+    height: 693px;
+    left: 0px;
+    top: 0px;
+    background: url(2.png);
+}
+
+.oops {}
