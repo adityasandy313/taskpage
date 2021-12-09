@@ -12,6 +12,15 @@
     height: 693px;
 }
 
+.rectangle {
+    position: relative;
+    width: 1042px;
+    height: 294px;
+    left: 19px;
+    top: 179px;
+    background: #FFFFFF;
+}
+
 .aloe {
     background-image: url(file:///Users/padmakshimandal/Downloads/aloe.png);
     background-repeat: no-repeat;
@@ -21,13 +30,4 @@
     height: 294px;
     left: 386px;
     top: 179px;
-}
-
-.rectangle {
-    position: relative;
-    width: 1042px;
-    height: 294px;
-    left: 19px;
-    top: 179px;
-    background: #FFFFFF;
 }
