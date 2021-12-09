@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url(file:///Users/padmakshimandal/Downloads/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1039px;
+    height: 693px;
+}
+
+.aloe {
+    background-image: url(file:///Users/padmakshimandal/Downloads/aloe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 311px;
+    height: 294px;
+    left: 386px;
+    top: 179px;
+}
+
+.rectangle {
+    position: relative;
+    width: 1042px;
+    height: 294px;
+    left: 19px;
+    top: 179px;
+    background: #FFFFFF;
+}
