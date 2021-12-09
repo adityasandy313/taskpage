@@ -13,7 +13,7 @@ $("#js-container").delay().hide();
         brush        = new Image();
         
     // base64 Workaround because Same-Origin-Policy
-    image.src = 'sracth.jpg';
+    image.src = 'scratch.jpg';
     image.onload = function() {
       ctx.drawImage(image, 0, 0);
       // Show the form when Image is loaded.
