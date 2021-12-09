@@ -3,8 +3,10 @@
     padding: 0;
 }
 
+
+/*image source:2.png*/
+
 .bg {
-    background-image: url(file:///Users/padmakshimandal/Downloads/2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,7 +14,7 @@
     height: 693px;
 }
 
-.rectangle {
+.rectangle1 {
     position: relative;
     width: 1039px;
     height: 294px;
@@ -21,8 +23,10 @@
     background: #FFFFFF;
 }
 
+
+/*image source:aloe.png*/
+
 .aloe {
-    background-image: url(file:///Users/padmakshimandal/Downloads/aloe.png);
     background-repeat: no-repeat;
     background-position: relative;
     width: 311px;
@@ -79,8 +83,36 @@
     color: #000000;
 }
 
+.footer {
+    position: relative;
+    width: 1039px;
+    height: 293px;
+    background: #763626
+}
+
+
+/* TEXT IN FOOT3ER: THE MORE NUMBER OF ANSWERS YOU GET RIGHT THE EASIER IT IS TO WIN */
+
+.textfoot {
+    position: absolute;
+    width: 936px;
+    height: 232px;
+    left: 48px;
+    top: 32px;
+    font-family: Rammetto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 
 /*correct answer, good job */
+
+
+/*image source:2.png*/
 
 .bg2 {
     position: absolute;
@@ -88,8 +120,19 @@
     height: 693px;
     left: 0px;
     top: 0px;
-    background: url(2.png);
 }
+
+.rectangle2 {
+    position: relative;
+    width: 1039px;
+    height: 294px;
+    left: 0px;
+    top: 200px;
+    background: #FFFFFF;
+}
+
+
+/*image source:cookie.png*/
 
 .correct {
     position: absolute;
@@ -97,8 +140,10 @@
     height: 295px;
     left: 106px;
     top: 200px;
-    background: url(cookie.png);
 }
+
+
+/*image source:4.png*/
 
 .excellent {
     position: absolute;
@@ -106,11 +151,13 @@
     height: 188px;
     left: 539px;
     top: 253px;
-    background: url(4.png);
 }
 
 
 /*correct answer, good job */
+
+
+/*image source:2.png*/
 
 .bg3 {
     position: absolute;
@@ -118,7 +165,36 @@
     height: 693px;
     left: 0px;
     top: 0px;
-    background: url(2.png);
 }
 
-.oops {}
+.rectangle3 {
+    position: relative;
+    width: 1039px;
+    height: 294px;
+    left: 0px;
+    top: 200px;
+    background: #FFFFFF;
+}
+
+
+/*image source:oops.png*/
+
+.oops {
+    position: absolute;
+    position: absolute;
+    width: 280px;
+    height: 314px;
+    left: 161px;
+    top: 190px;
+}
+
+
+/*image source:5.png*/
+
+.goodluck {
+    position: absolute;
+    width: 313px;
+    height: 294px;
+    left: 579px;
+    top: 200px;
+}
