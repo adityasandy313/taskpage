@@ -53,10 +53,20 @@
 
 /*riddles*/
 
-.verticalrectangle1 {
+.verticalrectangle2 {
     position: absolute;
-    width: 686px;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 50;
+    display: flex;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.verticalrectangle1 {
+    position: relative;
+    width: 786px;
+    height: 100vh;
     left: 0px;
     top: 0px;
     z-index: 50;
@@ -66,25 +76,13 @@
     overflow: hidden;
 }
 
-.verticalrectangle2 {
-    position: absolute;
-    width: 353px;
-    height: 100%;
-    left: 686px;
-    top: -86px;
-    z-index: 50;
-    display: flex;
-    justify-content: center;
-    background: #ffffff;
-    overflow: hidden;
-}
-
 .centrecircle {
     position: relative;
     width: 501px;
     height: 510px;
-    left: 92px;
-    top: 92px;
+    left: 0px;
+    top: 100px;
+    border-radius: 50%;
     background: #ffffff;
     z-index: 100;
     display: flex;
@@ -95,15 +93,15 @@
 /* HOW MANY CAN YOU GET? */
 
 .qstn {
-    position: absolute;
+    position: relative;
     width: 326px;
     height: 310px;
-    left: 97px;
-    top: 191px;
-    font-family: Rammetto One;
+    left: 0px;
+    top: 150px;
+    font-family: Georgia;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 55px;
     line-height: 84px;
     text-align: center;
     color: #000000;
@@ -126,13 +124,28 @@
     height: 100%;
     left: 0%;
     top: 40%;
-    font-family: Rammetto One;
+    font-family: 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
     line-height: 84px;
     text-align: center;
     color: #ffffff;
+}
+
+.textfoot2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 190px;
+    font-family: 'Courier New', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 
